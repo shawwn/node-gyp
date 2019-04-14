@@ -1,5 +1,5 @@
 {
-  "name": "node-gyp",
+  "name": "sweetiegyp",
   "description": "Node.js native addon build tool",
   "license": "MIT",
   "keywords": [
@@ -19,7 +19,7 @@
     "url": "git://github.com/nodejs/node-gyp.git"
   },
   "preferGlobal": true,
-  "bin": "./bin/node-gyp.js",
+  "bin": {"sweetiegyp": "./bin/node-gyp.js"},
   "main": "./lib/node-gyp.js",
   "dependencies": {
     "env-paths": "^1.0.0",
